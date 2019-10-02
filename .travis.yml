@@ -8,7 +8,6 @@ deploy:
   - provider: pages
     skip_cleanup: true
     github_token: $GITHUB_PAGES_TOKEN
-    local_dir: dist
     fqdn: peterhegman.com
     target_branch: master
     keep_history: true
