@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - '10'
+script:
+  - yarn lint
+  - yarn build
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_PAGES_TOKEN
+    local_dir: dist
+    fqdn: peterhegman.com
+    on:
+      tags: true

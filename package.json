@@ -8,6 +8,11 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "body-scroll-lock": "^2.6.4",
+    "bootstrap": "^4.3.1",
+    "focus-trap": "^5.0.2",
+    "normalize-scss": "^7.0.1",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
@@ -15,6 +20,7 @@
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
+    "@types/body-scroll-lock": "^2.6.1",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-plugin-pwa": "^3.11.0",
     "@vue/cli-plugin-typescript": "^3.11.0",

@@ -1,0 +1,38 @@
+%btn {
+    border: 0;
+    border-radius: 5px;
+    color: $white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: $header-font;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+.btn-primary {
+    @extend %btn;
+
+    background-color: $primary;
+
+    &:hover,
+    &:focus {
+        background-color: $primary-dark;
+    }
+}
+
+.btn-white-ghost {
+    @extend %btn;
+
+    border: 1px solid $white;
+    color: $white;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+        background-color: $white;
+        color: $black;
+    }
+}
