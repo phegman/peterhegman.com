@@ -11,4 +11,5 @@ deploy:
     local_dir: dist
     fqdn: peterhegman.com
     on:
+      branch: master
       tags: true
