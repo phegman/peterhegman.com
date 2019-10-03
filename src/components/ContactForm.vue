@@ -286,7 +286,7 @@ export default class ContactForm extends Vue {
   bottom: 0;
   box-shadow: $shadow-2;
   overflow: auto;
-  padding: 25px;
+  padding: 50px 25px 25px;
   position: fixed;
   right: 0;
   top: 0;

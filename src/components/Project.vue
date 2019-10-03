@@ -133,20 +133,30 @@ export default class Project extends Vue {
       }
     }
 
-    .wordpress-logo {
-      width: 150px;
+    .october-logo,
+    .laravel-logo {
+      width: 100px;
+
+      @include media-breakpoint-up(lg) {
+        width: 150px;
+      }
     }
 
-    .vue-logo {
-      width: 75px;
+    .vue-logo,
+    .wordpress-logo {
+      width: 50px;
+
+      @include media-breakpoint-up(lg) {
+        width: 75px;
+      }
     }
 
     .ts-logo {
-      width: 65px;
-    }
+      width: 40px;
 
-    .october-logo {
-      width: 150px;
+      @include media-breakpoint-up(lg) {
+        width: 65px;
+      }
     }
   }
 
@@ -182,6 +192,11 @@ export default class Project extends Vue {
 
       img {
         transition: 0.3s;
+        width: 40px;
+
+        @include media-breakpoint-up(lg) {
+          width: 50px;
+        }
       }
 
       span {
@@ -189,6 +204,11 @@ export default class Project extends Vue {
         display: block;
         font-family: $header-font;
         margin-top: 5px;
+        font-size: 14px;
+
+        @include media-breakpoint-up(lg) {
+          font-size: 16px;
+        }
       }
     }
   }

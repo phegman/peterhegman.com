@@ -24,7 +24,7 @@
           <project
             v-for="project in projects"
             :key="project.title"
-            class="col-lg-6"
+            class="col-md-6"
             v-bind="project"
           />
         </div>
@@ -147,7 +147,7 @@ export default class Portfolio extends Vue {
     cursor: pointer;
     position: absolute;
     right: 10px;
-    top: 35px;
+    top: 25px;
     padding: 5px;
     transition: transform 0.3s;
 

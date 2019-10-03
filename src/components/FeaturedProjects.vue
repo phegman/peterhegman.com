@@ -5,7 +5,7 @@
       <project
         v-for="project in projects"
         :key="project.title"
-        class="col-lg-6"
+        class="col-md-6"
         v-bind="project"
       />
     </div>
@@ -57,11 +57,7 @@ export default class FeaturedProjects extends Vue {
 
   .btn-wrap {
     text-align: center;
-    margin-top: 15px;
-
-    @include media-breakpoint-up(lg) {
-      margin-top: 30px;
-    }
+    margin-top: 30px;
   }
 }
 </style>
