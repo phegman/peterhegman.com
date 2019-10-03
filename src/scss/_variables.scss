@@ -6,7 +6,7 @@
 $primary: #0b3954;
 $primary-dark: darken($primary, 10%);
 
-$secondary: #5aa17f;
+$secondary: #3fd0b2;
 $secondary-dark: darken($secondary, 10%);
 
 $black: #1e2f43;
@@ -52,7 +52,7 @@ $paragraph-font: "Raleway", sans-serif;
 */
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
+  sm: 450px,
   md: 768px,
   lg: 992px,
   xl: 1200px,
