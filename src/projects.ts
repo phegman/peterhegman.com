@@ -9,7 +9,7 @@ const octoberLogo = require("./assets/october-logo.svg");
 export const mapboxGlVue: Project = {
   title: "Mapbox GL JS Vue.js Component",
   description:
-    "A simple lightweight (9kb/3kb gzipped) Mapbox GL JS Vue component. Great for quick prototyping or smaller projects.",
+    "A simple lightweight (9kb/3kb gzipped) Mapbox GL JS Vue component. A great starting place when using Mapbox and Vue together",
   builtWith: [
     {
       title: "Vue",
@@ -31,7 +31,7 @@ export const mapboxGlVue: Project = {
 export const fantasyEws: Project = {
   title: "Fantasy EWS",
   description:
-    "A mountain bike fantasy game following the Enduro World Series. Create leagues, set your lineup, and compete against your friends each week. Run during the 2017 and 2018 seasons. Deprecated for the 2019 season in favor of Pinkbike Fantasy Enduro.",
+    'A mountain bike fantasy game following the Enduro World Series. Create leagues, set your lineup, and compete against your friends each week. Run during the 2017 and 2018 seasons. Deprecated for the 2019 season in favor of <a target="_blank" rel="noopener noreferrer" href="https://www.pinkbike.com/contest/fantasy/enduro/">Pinkbike Fantasy Enduro.</a>',
   builtWith: [
     {
       title: "Laravel",
@@ -68,7 +68,7 @@ export const animateVanillaJs: Project = {
 export const vShowSlide: Project = {
   title: "v-show-slide",
   description:
-    "A Vue.js directive for animating an element to and from height: auto",
+    "A Vue.js directive used to show/hide an element in a sliding motion.",
   builtWith: [
     {
       title: "Vue",
@@ -84,7 +84,7 @@ export const vShowSlide: Project = {
 export const vScrollLock: Project = {
   title: "v-scroll-lock",
   description:
-    "A Vue.js directive for body scroll locking without breaking scrolling of a target element (e.g. modal/lightbox/flyouts/nav-menus).",
+    "A Vue.js directive for locking the body scroll without breaking the scrolling of a target element (e.g. modal/lightbox/flyouts/nav-menus).",
   builtWith: [
     {
       title: "Vue",
@@ -100,7 +100,7 @@ export const vScrollLock: Project = {
 export const laravelDD: Project = {
   title: "Laravel DD for Wordpress",
   description:
-    "A simple WordPress plugin that allows you to use the dd() Laravel function.",
+    'A simple WordPress plugin that allows you to use <a target="_blank" rel="noopener noreferrer" href="https://laravel.com/docs/master/helpers#method-dd">Laravel\'s dd()</a> function.',
   builtWith: [
     {
       title: "Wordpress",
@@ -116,7 +116,7 @@ export const laravelDD: Project = {
 export const trailManager: Project = {
   title: "Trail Manager",
   description:
-    "A WordPress plugin that allows the user to display trails (mountain bike, hiking, skiing, etc) in a network and easily update trail conditions and description from the back-end. Back-end interface is built using Vue.js.",
+    "A WordPress plugin that allows the user to display trails (mountain bike, hiking, skiing, etc) in a network and easily update trail conditions and description from the WordPress backend. Backend interface is built using Vue.js.",
   builtWith: [
     {
       title: "Wordpress",

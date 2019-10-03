@@ -4,7 +4,7 @@
       <div class="content-wrap">
         <h3 class="title">{{ title }}</h3>
         <!-- /.title -->
-        <p class="description">{{ description }}</p>
+        <p class="description" v-html="description" />
         <!-- /.description -->
       </div>
       <!-- /.content-wrap -->
@@ -117,6 +117,7 @@ export default class Project extends Vue {
     a {
       display: inline-block;
       vertical-align: middle;
+      transition: opacity 0.3s;
 
       &:not(:last-child) {
         margin-right: 10px;
@@ -124,6 +125,11 @@ export default class Project extends Vue {
 
       img {
         display: block;
+      }
+
+      &:hover,
+      &:focus {
+        opacity: 0.7;
       }
     }
 
