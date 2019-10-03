@@ -9,6 +9,7 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
     "vue/max-attributes-per-line": "off",
     "vue/html-self-closing": "off",
+    "vue/no-v-html": "off",
   },
   parserOptions: {
     parser: "@typescript-eslint/parser",
