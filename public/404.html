@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      // ====================================================================================================================
+      // This text is simply to make sure the 404.html file is bigger than 512 bytes, else, internet explorer will ignore it.
+      // Thank you internet explorer for requiring such awesome workarounds in order to work properly
+      // ====================================================================================================================
+      sessionStorage.redirect = location.href;
+    </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -10,6 +17,7 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <meta http-equiv="refresh" content="0;URL='/'" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -40,23 +48,6 @@
     <title>Peter Hegman - Developer, mountain biker, skier</title>
   </head>
   <body>
-    <noscript>
-      <strong
-        >We're sorry but peterhegman.com doesn't work properly without
-        JavaScript enabled. Please enable it to continue.</strong
-      >
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-    <script>
-      // GitHub pages hack for "history mode"
-      (function() {
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect != location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
-    </script>
+    &nbsp;
   </body>
 </html>
