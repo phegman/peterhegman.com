@@ -107,6 +107,7 @@ export default class FormInput extends Vue {
       transform: translateY(-50%);
       transition: font-size 0.3s, transform 0.3s;
       pointer-events: none;
+      z-index: 3;
     }
 
     input,
