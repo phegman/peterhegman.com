@@ -44,12 +44,10 @@ export default class App extends Vue {}
 
 <style lang="scss" scoped>
 .app {
-  background: -webkit-gradient(
-    linear,
-    0% 100%,
-    100% 0%,
-    from(rgb(0, 15, 8)),
-    to(rgb(11, 57, 84))
+  background: linear-gradient(
+    90deg,
+    rgba(0, 15, 8, 1) 0%,
+    rgba(11, 57, 84, 1) 100%
   );
   overflow: hidden;
 
