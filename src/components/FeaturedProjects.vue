@@ -44,12 +44,12 @@ export default class FeaturedProjects extends Vue {
   }
 
   .project {
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
       margin-top: 0;
     }
 
     &:first-child {
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(sm) {
         margin-top: 0;
       }
     }
