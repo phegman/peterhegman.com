@@ -27,12 +27,12 @@
 
 <script lang="ts">
 import Project from "./Project.vue";
-import { mapboxGlVue, fantasyEws } from "../projects";
+import { mapboxGlVue, vShowSlide } from "../projects";
 import { Component, Vue } from "vue-property-decorator";
 
 @Component({ components: { Project } })
 export default class FeaturedProjects extends Vue {
-  projects = [mapboxGlVue, fantasyEws];
+  projects = [mapboxGlVue, vShowSlide];
 }
 </script>
 
