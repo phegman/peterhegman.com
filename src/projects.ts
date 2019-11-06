@@ -152,10 +152,10 @@ export const quickResponsiveSlideshows: Project = {
 
 const projects: Project[] = [
   mapboxGlVue,
-  fantasyEws,
   animateVanillaJs,
   vShowSlide,
   vScrollLock,
+  fantasyEws,
   laravelDD,
   trailManager,
   quickResponsiveSlideshows,
