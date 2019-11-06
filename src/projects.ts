@@ -42,7 +42,7 @@ const technologies = {
 export const mapboxGlVue: Project = {
   title: "Mapbox GL JS Vue.js Component",
   description:
-    "A simple lightweight (9kb/3kb gzipped) Mapbox GL JS Vue component. A great starting place when using Mapbox and Vue together",
+    "A simple lightweight (9kb/3kb gzipped) Mapbox GL JS Vue component. A great starting place when using Mapbox and Vue together.",
   builtWith: [technologies.vue, technologies.ts],
   projectLink: "https://www.npmjs.com/package/mapbox-gl-vue",
   gitHubLink: "https://github.com/phegman/vue-mapbox-gl",
