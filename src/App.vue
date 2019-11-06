@@ -3,11 +3,12 @@
     <contact-form v-show="$route.name === 'contact'" />
     <portfolio v-show="$route.name === 'portfolio'" />
     <div class="container">
-      <header class="site-header row justify-content-between">
+      <header
+        class="site-header row justify-content-between align-items-center"
+      >
         <navigation />
         <div class="col-12 col-lg-auto name-wrap">
           <h1 class="my-name">Peter <strong>Hegman</strong></h1>
-          <h5 class="tagline">Dev, Bike, Ski</h5>
           <!-- /.tagline -->
         </div>
       </header>
@@ -77,21 +78,6 @@ export default class App extends Vue {}
     font-size: 53px;
     margin: 0;
     text-align: right;
-  }
-}
-
-.tagline {
-  color: $white;
-  font-family: $logo-font;
-  font-weight: 200;
-  margin-top: 0;
-  text-align: center;
-  margin-top: 10px;
-
-  @include media-breakpoint-up(lg) {
-    text-align: right;
-    margin-top: 0;
-    margin-right: 10px;
   }
 }
 </style>
