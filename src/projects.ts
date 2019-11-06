@@ -68,7 +68,7 @@ export const animateVanillaJs: Project = {
 export const vShowSlide: Project = {
   title: "v-show-slide",
   description:
-    "A Vue.js directive used to show/hide an element in a sliding motion.",
+    "A Vue.js directive for animating an element from <code>height: 0px</code> to <code>height: auto</code> and vice-versa.",
   builtWith: [technologies.vue, technologies.ts],
   projectLink: "https://www.npmjs.com/package/v-show-slide",
   gitHubLink: "https://github.com/phegman/v-show-slide",

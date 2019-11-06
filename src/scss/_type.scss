@@ -68,3 +68,16 @@ h4 {
 h5 {
   font-size: 16px;
 }
+
+code {
+  font-size: 90%;
+  padding: 2px 4px;
+  color: $black;
+  background-color: rgba($black, 0.2);
+  border-radius: 4px;
+  font-family: "Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas",
+    "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;
+  white-space: pre-wrap;
+  word-wrap: normal;
+  word-break: keep-all;
+}
