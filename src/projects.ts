@@ -42,7 +42,7 @@ const technologies = {
 export const mapboxGlVue: Project = {
   title: "Mapbox GL JS Vue.js Component",
   description:
-    "A simple lightweight (9kb/3kb gzipped) Mapbox GL JS Vue component. A great starting place when using Mapbox and Vue together.",
+    "A simple lightweight (9kb/3kb gzipped) Mapbox GL JS Vue.js component. A great starting place when using Mapbox and Vue.js together.",
   builtWith: [technologies.vue, technologies.ts],
   projectLink: "https://www.npmjs.com/package/mapbox-gl-vue",
   gitHubLink: "https://github.com/phegman/vue-mapbox-gl",
@@ -68,7 +68,7 @@ export const animateVanillaJs: Project = {
 export const vShowSlide: Project = {
   title: "v-show-slide",
   description:
-    "A Vue.js directive for animating an element from <code>height: 0px</code> to <code>height: auto</code> and vice-versa.",
+    "A Vue.js directive for animating an element from <code>height: 0px;</code> to <code>height: auto;</code> and vice-versa.",
   builtWith: [technologies.vue, technologies.ts],
   projectLink: "https://www.npmjs.com/package/v-show-slide",
   gitHubLink: "https://github.com/phegman/v-show-slide",
