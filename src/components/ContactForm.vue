@@ -225,7 +225,7 @@ export default class ContactForm extends Vue {
       this.sendingEmail = true;
       try {
         const response = await axios.post(
-          "https://formspree.io/phegman@icloud.com",
+          "https://formspree.io/mknnjljw",
           data
         );
         this.sendingEmail = false;
