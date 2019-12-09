@@ -99,7 +99,7 @@ export default class ContactForm extends Vue {
     },
     email: {
       show: false,
-      message: "Please enter a vaild email address",
+      message: "Please enter a valid email address",
     },
     message: {
       show: false,
