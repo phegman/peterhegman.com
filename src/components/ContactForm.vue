@@ -51,7 +51,7 @@
         />
         <form-input
           v-model="inputs.message"
-          name="email"
+          name="message"
           label="Your Message"
           type="textarea"
           :error="errors.message"
