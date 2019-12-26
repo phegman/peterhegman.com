@@ -4,7 +4,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        data:
+        prependData:
           '@import "@/scss/_variables.scss"; @import "~bootstrap/scss/mixins/_breakpoints.scss";',
       },
     },
