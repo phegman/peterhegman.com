@@ -12,10 +12,6 @@ export default new Router({
       name: "home",
     },
     {
-      path: "/contact",
-      name: "contact",
-    },
-    {
       path: "/portfolio",
       name: "portfolio",
     },

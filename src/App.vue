@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="app">
-    <contact-form v-show="$route.name === 'contact'" />
     <portfolio v-show="$route.name === 'portfolio'" />
     <div class="container">
       <header
@@ -27,13 +26,11 @@
 import Computer from "./components/Computer.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Navigation from "./components/Navigation.vue";
-import ContactForm from "./components/ContactForm.vue";
 import { Component, Vue } from "vue-property-decorator";
 import FeaturedProjects from "./components/FeaturedProjects.vue";
 
 @Component({
   components: {
-    ContactForm,
     Portfolio,
     Navigation,
     Computer,

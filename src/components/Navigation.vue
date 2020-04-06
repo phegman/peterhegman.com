@@ -19,16 +19,6 @@
       <span class="nav-text">Medium</span>
     </a>
     <router-link
-      id="contact-nav-item"
-      :to="{ name: 'contact' }"
-      class="nav-item email-me"
-      aria-controls="contact-form"
-      :aria-expanded="$route.name === 'contact' ? 'true' : 'false'"
-    >
-      <img class="email-icon" src="../assets/email-logo.svg" alt="Email Me" />
-      <span class="nav-text">Contact</span>
-    </router-link>
-    <router-link
       :to="{ name: 'portfolio' }"
       class="nav-item portfolio"
       aria-controls="portfolio"
