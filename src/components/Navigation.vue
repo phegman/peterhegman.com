@@ -9,15 +9,6 @@
       <img src="../assets/github-logo.svg" alt="Github Logo" />
       <span class="nav-text">GitHub</span>
     </a>
-    <a
-      class="nav-item medium-logo"
-      href="https://medium.com/@petehegman"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img src="../assets/medium-logo.svg" alt="Medium Logo" />
-      <span class="nav-text">Medium</span>
-    </a>
     <router-link
       :to="{ name: 'portfolio' }"
       class="nav-item portfolio"
