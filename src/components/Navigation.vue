@@ -1,15 +1,6 @@
 <template>
   <nav class="navigation col-12 col-lg-auto">
     <a
-      class="nav-item gitlab-logo"
-      href="https://gitlab.com/peterhegman"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img src="../assets/gitlab-logo.svg" alt="GitLab Logo" />
-      <span class="nav-text">GitLab</span>
-    </a>
-    <a
       class="nav-item github-logo"
       href="https://github.com/phegman"
       target="_blank"
